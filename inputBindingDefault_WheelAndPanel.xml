@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<inputBinding version="11" bindingVersion="1" mouseSensitivityScaleX="1" mouseSensitivityScaleY="1">
+
+<!-- Player - Movement -->
+
+	<!-- Walk Backwards	-->
+	<!-- Walk Forward -->
+
+	<actionBinding action="AXIS_MOVE_FORWARD_PLAYER">
+		<!-- Backward (+) -->
+		<!-- Forward (-) -->
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Walk Right -->
+	<!-- Walk Left -->
+
+	<actionBinding action="AXIS_MOVE_SIDE_PLAYER">
+		<!-- Right (+) -->
+		<!-- left (-) -->
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+
+	<!-- Look Down -->
+	<!-- Look Up -->
+
+	<actionBinding action="AXIS_LOOK_UPDOWN_PLAYER">
+		<!-- Down (+) -->
+		<!-- Up (-) -->
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Look Right -->
+	<!-- Look Left -->
+
+	<actionBinding action="AXIS_LOOK_LEFTRIGHT_PLAYER">
+		<!-- Right (+) -->
+		<!-- Left (-) -->
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+
+	<!-- Run -->
+
+	<actionBinding action="AXIS_RUN">
+		<binding device="WHEEL_DEFAULT" input="AXIS_11" inputComponent="+" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Jump -->
+
+	<actionBinding action="JUMP">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_2" />
+	</actionBinding>
+
+	<!-- Crouch -->
+
+	<actionBinding action="CROUCH" >
+		<binding device="WHEEL_DEFAULT" input="BUTTON_4" />
+	</actionBinding>
+
+<!-- Construction -->
+
+	<!-- Build Mode -->
+
+<!-- 	<actionBinding action="TOGGLE_CONSTRUCTION" >
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_ZOOM">
+		<binding device="" input="" axisComponent="+"/>
+		<binding device="" input="" axisComponent="-"/>
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_ROTATE">
+		<binding device="" input="" axisComponent="+" />
+		<binding device="" input="" axisComponent="-" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_TILT">
+		<binding device="" input="" axisComponent="+"/>
+		<binding device="" input="" axisComponent="-"/>
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_MENU_UP_DOWN">
+		<binding device="" input="" axisComponent="+"/>
+		<binding device="" input="" axisComponent="-"/>
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_MENU_LEFT_RIGHT">
+		<binding device="" input="" axisComponent="-"/>
+		<binding device="" input="" axisComponent="+"/>
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_CURSOR_ROTATE">
+		<binding device="" input="" axisComponent="-" />
+		<binding device="" input="" axisComponent="+" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_DESTRUCT_TOGGLE">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_SHOW_CONFIGS">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_ACTION_SNAPPING">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_ACTION_PRIMARY">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_ACTION_SECONDARY">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_ACTION_TERTIARY">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="CONSTRUCTION_ACTION_FOURTH">
+		<binding device="" input="" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_ACTION_PRIMARY"> <!-- left (-) right (+) -->
+		<!-- <binding device="" input="" axisComponent="-" /> -->
+		<!-- <binding device="" input="" axisComponent="+" /> -->
+	<!-- </actionBinding> -->
+
+    <actionBinding action="AXIS_CONSTRUCTION_ACTION_SECONDARY">
+        <!-- <binding device="" input="" axisComponent="-" /> -->
+        <!-- <binding device="" input="" axisComponent="+" /> -->
+    </actionBinding>
+
+	<actionBinding action="AXIS_CONSTRUCTION_MENU_UP_DOWN">
+        <binding device="WHEEL_DEFAULT" input="BUTTON_17" axisComponent="+" />
+        <binding device="WHEEL_DEFAULT" input="BUTTON_19" axisComponent="-" />
+    </actionBinding>
+
+    <actionBinding action="AXIS_CONSTRUCTION_MENU_LEFT_RIGHT">
+        <binding device="WHEEL_DEFAULT" input="BUTTON_18" axisComponent="+" />
+        <binding device="WHEEL_DEFAULT" input="BUTTON_20" axisComponent="-" />
+    </actionBinding>
+
+    <actionBinding action="AXIS_PLACEMENT_ROTATE_CAMERA">
+        <binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="+" axisComponent="+" />
+        <binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="-" axisComponent="-" />
+    </actionBinding>
+
+    <actionBinding action="AXIS_PLACEMENT_ROTATE_OBJECT">
+        <binding device="PANEL_DEFAULT" input="AXIS_6" inputComponent="+" axisComponent="+" />
+        <binding device="PANEL_DEFAULT" input="AXIS_6" inputComponent="-" axisComponent="-" />
+    </actionBinding>
+
+    <actionBinding action="AXIS_PLACEMENT_CHANGE_HEIGHT">
+        <binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="+" axisComponent="+" />
+        <binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="-" axisComponent="-" />
+    </actionBinding>
+
+<!-- Vehicle - Driving -->
+
+	<!-- Accelerate -->
+	<actionBinding action="AXIS_ACCELERATE_VEHICLE">
+		<binding device="WHEEL_DEFAULT" input="AXIS_11" inputComponent="+" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Brake -->
+
+	<actionBinding action="AXIS_BRAKE_VEHICLE">
+		<binding device="WHEEL_DEFAULT" input="AXIS_12" inputComponent="+" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Steer Right -->
+	<!-- Steer Left -->
+
+	<actionBinding action="AXIS_MOVE_SIDE_VEHICLE">
+		<!-- Right (+) -->
+		<!-- left (-) -->
+		<binding device="WHEEL_DEFAULT" input="AXIS_1" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="AXIS_1" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Look Down Vehicle -->
+	<!-- Look Up Vehicle -->
+
+	<actionBinding action="AXIS_LOOK_UPDOWN_VEHICLE">
+		<!-- Down (+) -->
+		<!-- Up (-) -->
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Look Right Vehicle -->
+	<!-- Look Left Vehicle -->
+
+	<actionBinding action="AXIS_LOOK_LEFTRIGHT_VEHICLE">
+		<!-- Right (+) -->
+		<!-- left (-) -->
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Increase Axis Distance -->
+	<!-- Decrease Axis Distance -->
+
+	<actionBinding action="AXIS_WHEEL_BASE">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Increase Cruise Control -->
+	<!-- Decrease Cruise Control -->
+
+    <actionBinding action="AXIS_CRUISE_CONTROL">
+        <!-- <binding device="" input="" axisComponent="+"/> -->
+        <!-- <binding device="" input="" axisComponent="-"/> -->
+    </actionBinding>
+
+	<!-- Honk -->
+
+	<actionBinding action="HONK" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Motorstate On -->
+
+	<!-- Motorstate Off -->
+
+	<!-- Motorstate Ignition -->
+
+	<!-- Start/Stop Engine -->
+
+	<actionBinding action="TOGGLE_MOTOR_STATE" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Steering Mode -->
+
+	<actionBinding action="TOGGLE_CRABSTEERING" >
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_13" />
+	</actionBinding>
+
+	<!-- Toggle Steering Mode Reverse -->
+
+    <actionBinding action="TOGGLE_CRABSTEERING_BACK" >
+        <!-- <binding device="" input="" /> -->
+    </actionBinding>
+
+	<!-- Change Driving Direction -->
+
+	<actionBinding action="CHANGE_DRIVING_DIRECTION" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Cruise Control -->
+
+	<actionBinding action="TOGGLE_CRUISE_CONTROL" >
+		<binding device="WHEEL_DEFAULT" input="AXIS_13" inputComponent="+" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Crab Steering All -->
+
+	<actionBinding action="CRABSTEERING_ALLWHEEL">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Crab Steering Left -->
+
+	<actionBinding action="CRABSTEERING_CRABLEFT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Crab Steering Right -->
+
+	<actionBinding action="CRABSTEERING_CRABRIGHT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+<!-- Player - Interactive -->
+
+	<!-- Rotate Hand Tool Right -->
+	<!-- Rotate Hand Tool Left -->
+
+	<actionBinding action="AXIS_ROTATE_HANDTOOL">
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Rotate Hand Tool Down -->
+	<!-- Rotate Hand Tool Up -->
+
+	<actionBinding action="AXIS_PITCH_HANDTOOL">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Interact -->
+
+	<actionBinding action="INTERACT" >
+		<binding device="WHEEL_DEFAULT" input="BUTTON_3" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_28" />
+	</actionBinding>
+
+	<!-- Use Object -->
+
+	<actionBinding action="ACTIVATE_OBJECT" >
+		<binding device="PANEL_DEFAULT" input="BUTTON_28" />
+	</actionBinding>
+
+	<!-- Pet -->
+
+	<actionBinding action="ANIMAL_PET" >
+		<binding device="PANEL_DEFAULT" input="BUTTON_28" />
+	</actionBinding>
+
+	<!-- Switch Hand Tool -->
+
+	<actionBinding action="CYCLE_HANDTOOL">
+		<binding device="PANEL_DEFAULT" input="BUTTON_4" axisComponent="-" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_5" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Toggle Hand Tool -->
+
+	<actionBinding action="TOGGLE_HANDTOOL">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Activate Hand Tool -->
+
+	<actionBinding action="ACTIVATE_HANDTOOL">
+		<binding device="" input=""/><binding device="WHEEL_DEFAULT" input="BUTTON_3" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_28" />
+	</actionBinding>
+
+	<!-- Activate Hand Tool Secondary -->
+
+	<actionBinding action="ACTIVATE_HANDTOOL_SECONDARY">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<!-- Level Picked Up Object -->
+
+	<actionBinding action="HANDS_LEVEL">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<!-- Rotate Object Left -->
+	<!-- Rotate Object Right -->
+
+	<actionBinding action="ROTATE_OBJECT_LEFT_RIGHT">
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="-" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="+" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Rotate Object Up -->
+	<!-- Rotate Object Down -->
+
+	<actionBinding action="ROTATE_OBJECT_UP_DOWN">
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Change Marker -->
+
+	<actionBinding action="SPRAYCAN_CHANGE_MARKER">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Flashlight -->
+
+	<actionBinding action="TOGGLE_LIGHTS_FPS" >
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_6" />
+	</actionBinding>
+
+	<!-- Throw Object -->
+
+	<actionBinding action="THROW_OBJECT" >
+		<binding device="WHEEL_DEFAULT" input="BUTTON_1" />
+	</actionBinding>
+
+<!-- Vehicle -->
+
+	<!-- Raise Hydraulic Hitch -->
+	<!-- Lower Hydraulic Hitch -->
+
+	<actionBinding action="AXIS_HYDRAULICATTACHER1">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Raise Hydraulic Hitch 2 -->
+	<!-- Lower Hydraulic Hitch 2 -->
+
+	<actionBinding action="AXIS_HYDRAULICATTACHER2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Rotate Pipe Up -->
+	<!-- Rotate Pipe Down -->
+
+	<actionBinding action="AXIS_PIPE">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+    </actionBinding>
+
+	<!-- Rotate Pipe 2 Up -->
+	<!-- Rotate Pipe 2 Down -->
+
+	<actionBinding action="AXIS_PIPE2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+    </actionBinding>
+
+
+	<!-- Raise Drawbar -->
+	<!-- Lower Drawbar -->
+
+	<actionBinding action="AXIS_DRAWBAR">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Fold Drawbar Right -->
+	<!-- Fold Drawbar Left -->
+
+	<actionBinding action="AXIS_DRAWBAR2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Enter -->
+
+	<actionBinding action="ENTER">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_1" />
+	</actionBinding>
+
+	<!-- Switch Seat -->
+
+	<actionBinding action="SWITCH_SEAT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_19" />
+	</actionBinding>
+
+	<!-- Camera Zoom In -->
+	<!-- Camera Zoom Out -->
+
+	<actionBinding action="CAMERA_ZOOM_IN_OUT" >
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_19" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Switch to Next Vehicle -->
+
+	<actionBinding action="SWITCH_VEHICLE">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_26" />
+	</actionBinding>
+
+	<!-- Switch to Previous Vehicle -->
+
+	<actionBinding action="SWITCH_VEHICLE_BACK">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_27" />
+	</actionBinding>
+
+	<!-- Attach Tool -->
+
+	<actionBinding action="ATTACH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_2" />
+	</actionBinding>
+
+	<!-- Detach Tool -->
+
+	<actionBinding action="DETACH" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Select Next Tool -->
+
+	<actionBinding action="SWITCH_IMPLEMENT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_4" />
+	</actionBinding>
+
+	<!-- Select Previous Tool -->
+
+	<actionBinding action="SWITCH_IMPLEMENT_BACK" >
+		<binding device="PANEL_DEFAULT" input="BUTTON_5" />
+	</actionBinding>
+
+	<!-- Dump -->
+
+	<actionBinding action="TOGGLE_TIPSTATE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_10" />
+	</actionBinding>
+
+	<!-- Toggle Tip Side -->
+
+	<actionBinding action="TOGGLE_TIPSIDE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_19" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_11" />
+	</actionBinding>
+
+	<!-- Fasten/Unfasten Tension Belts -->
+
+	<actionBinding action="TOGGLE_TENSION_BELTS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_12" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_9" />
+	</actionBinding>
+
+	<!-- Change Bale Size -->
+
+	<actionBinding action="TOGGLE_BALE_TYPES">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_1" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_13" />
+	</actionBinding>
+
+	<!-- Reset Bale Counter	-->
+
+	<actionBinding action="BALE_COUNTER_RESET">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_19" />
+	</actionBinding>
+
+	<!-- Unload Round Bale on End -->
+
+	<actionBinding action="BALE_WRAPPER_DROP_CUSTOM">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_1" />
+	</actionBinding>
+
+	<!-- Turn Tool On/Off -->
+
+    <actionBinding action="VEHICLE_ACTION_CONTROL">
+        <binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_1" />
+        <binding device="PANEL_DEFAULT" input="BUTTON_17" />
+    </actionBinding>
+
+	<!-- Lower Tool -->
+
+	<actionBinding action="LOWER_IMPLEMENT">
+        <binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_3" />
+        <binding device="PANEL_DEFAULT" input="BUTTON_18" />
+    </actionBinding>
+
+	<!-- Tool Function 1 -->
+
+	<actionBinding action="IMPLEMENT_EXTRA">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_1" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_17" />
+	</actionBinding>
+
+	<!-- Tool Function 2 -->
+
+	<actionBinding action="IMPLEMENT_EXTRA2">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_2" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_11" />
+	</actionBinding>
+
+	<!-- Tool Function 3 -->
+
+	<actionBinding action="IMPLEMENT_EXTRA3">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_13" />
+	</actionBinding>
+
+	<!-- Tool Function 4 -->
+
+	<actionBinding action="IMPLEMENT_EXTRA4">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_17" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_15" />
+	</actionBinding>
+
+	<!-- Toggle Next Fold State -->
+
+	<actionBinding action="FOLDABLESTEPS_NEXT_POS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_3" />
+	</actionBinding>
+
+	<!-- Toggle Last Fold State -->
+
+	<actionBinding action="FOLDABLESTEPS_NEXT_NEG">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_4" />
+	</actionBinding>
+
+	<!-- Change Seeds -->
+
+	<actionBinding action="TOGGLE_SEEDS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_17" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_14" />
+	</actionBinding>
+
+	<!-- Change Seeds Reverse -->
+
+	<actionBinding action="TOGGLE_SEEDS_BACK">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Pipe -->
+
+	<actionBinding action="TOGGLE_PIPE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_19" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_9" />
+	</actionBinding>
+
+	<!-- Open/Close Cover -->	
+
+	<actionBinding action="TOGGLE_COVER">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_20" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_4" />
+	</actionBinding>
+
+	<!-- Toggle Straw Swath -->
+
+	<actionBinding action="TOGGLE_CHOPPER">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_18" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_5" />
+	</actionBinding>
+
+	<!-- Dump On Ground -->
+
+	<actionBinding action="TOGGLE_TIPSTATE_GROUND">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_10" />
+	</actionBinding>
+
+	<!-- Lower/Raise All Tools -->
+
+	<actionBinding action="LOWER_ALL_IMPLEMENTS">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_18" />
+
+	</actionBinding>
+
+	<!-- Turn On/Off All Tools -->
+	<actionBinding action="TURN_ON_ALL_IMPLEMENTS">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_17" />
+	</actionBinding>
+
+	<!-- Fold All Tools -->
+
+	<actionBinding action="FOLD_ALL_IMPLEMENTS">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_19" />
+	</actionBinding>
+
+	<!-- Unload -->
+
+	<actionBinding action="UNLOAD">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_12" />
+	</actionBinding>
+
+<!-- Vehicle Work -->
+
+	<!-- Extend Header Reel -->
+	<!-- Retract Header Reel -->
+
+	<actionBinding action="AXIS_CUTTER_REEL">
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Raise Header Reel -->
+	<!-- Lower Header Reel -->
+
+	<actionBinding action="AXIS_CUTTER_REEL2">
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Raise Sprayer Arm -->
+	<!-- Lower Sprayer Arm -->
+
+	<actionBinding action="AXIS_SPRAYER_ARM">
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="-" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="+" axisComponent="-" />
+	</actionBinding>
+
+	<!-- AI Worker -->
+
+	<actionBinding action="TOGGLE_AI">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_3" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_23" />
+	</actionBinding>
+
+	<!-- Steering Assist -->
+
+	<actionBinding action="TOGGLE_AI_STEERING">
+	</actionBinding>
+
+	<!-- Toggle Steering Assist Line Visability -->
+
+    <actionBinding action="TOGGLE_AI_STEERING_LINES">
+    </actionBinding>
+
+	<!-- Toggle Work Mode -->
+
+	<actionBinding action="TOGGLE_WORKMODE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_13" />
+	</actionBinding>
+
+	<!-- Sprayer Application Rate Change -->
+
+	<actionBinding action="DOUBLED_SPRAY_AMOUNT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_18" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_15" />
+	</actionBinding>
+
+	<!-- Deactivate Left Partial Widths -->
+
+	<actionBinding action="VARIABLE_WORK_WIDTH_LEFT">
+	</actionBinding>
+
+	<!-- Activate Right Partial Widths -->
+
+	<actionBinding action="VARIABLE_WORK_WIDTH_RIGHT">
+	</actionBinding>
+
+	<!-- Change Work Width -->
+
+	<actionBinding action="VARIABLE_WORK_WIDTH_TOGGLE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_12" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_12" />
+	</actionBinding>
+
+	<!-- Change Wood Cut Length Back -->
+
+	<actionBinding action="TOGGLE_CUT_LENGTH_BACK">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Drop Tree From Wood Harvester -->
+
+	<actionBinding action="WOOD_HARVESTER_DROP">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Align Harvester to Target Tree -->
+
+	<actionBinding action="TREE_AUTOMATIC_ALIGN">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Tilt Harvester Head -->
+
+	<actionBinding action="TOGGLE_WOOD_HARVESTER_TILT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_18" />
+	</actionBinding>
+
+	<!-- Move Yarder Left -->
+	<!-- Move Yarder Right -->
+
+	<actionBinding action="YARDER_CONTROL_LEFTRIGHT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_3" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_3" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Lift Yarder Rope Up -->
+	<!-- Lower Yarder Rope Down -->
+
+	<actionBinding action="YARDER_CONTROL_UPDOWN">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_4" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_4" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Enable Carriage Follow Mode -->
+
+	<actionBinding action="YARDER_FOLLOW_ME">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Move Carriage to Yarder -->
+
+	<actionBinding action="YARDER_FOLLOW_HOME">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Move Carriage to Last Position -->
+
+	<actionBinding action="YARDER_FOLLOW_PICKUP">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Attach Tree to Yarder -->
+
+	<actionBinding action="YARDER_ATTACH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_2" />
+	</actionBinding>
+
+	<!-- Detach Tree from Yarder -->
+
+	<actionBinding action="YARDER_DETACH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_1" />
+	</actionBinding>
+
+	<!-- Setup Yarder Rope -->
+
+	<actionBinding action="YARDER_SETUP_ROPE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_3" />
+	</actionBinding>
+
+	<!-- Pull Winch Rope -->
+	<!-- Release Winch Rope -->
+
+	<actionBinding action="WINCH_CONTROL">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_3" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 AXIS_3" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Pull Winch Rope -->
+	<!-- Release Winch Rope -->
+
+	<actionBinding action="WINCH_CONTROL_VEHICLE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 AXIS_1" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 AXIS_1" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Pull Winch Rope -->
+
+	<actionBinding action="WINCH_ATTACH_MODE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_13" />
+	</actionBinding>
+
+	<!-- Attach Tree to Winch -->
+
+	<actionBinding action="WINCH_ATTACH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_2" />
+	</actionBinding>
+
+	<!-- Detach Tree from Winch -->
+
+	<actionBinding action="WINCH_DETACH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_4" />
+	</actionBinding>
+
+	<!-- Buy New Boxes -->
+
+	<actionBinding action="PALLET_FILLER_BUY_PALLETS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_18" />
+	</actionBinding>
+
+	<!-- Work Mode Middle -->
+
+	<actionBinding action="WORKMODE_MIDDLE">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Work Mode Left -->
+
+	<actionBinding action="WORKMODE_LEFT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Work Mode Right -->
+
+	<actionBinding action="WORKMODE_RIGHT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+<!-- Vehicle - Frontloader -->
+
+	<!-- Raise Frontloader Arm -->
+	<!-- Lower Frontloader Arm -->
+
+	<actionBinding action="AXIS_FRONTLOADER_ARM">
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Extend Frontloader Arm -->
+	<!-- Contract Frontloader Arm -->
+
+	<actionBinding action="AXIS_FRONTLOADER_ARM2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Raise Frontloader Tool -->
+	<!-- Lower Frontloader Tool -->
+
+	<actionBinding action="AXIS_FRONTLOADER_TOOL">
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="+" axisComponent="-" />
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="-" axisComponent="+" />
+	</actionBinding>
+
+	<!-- Open Frontloader Tool -->
+	<!-- Close Frontloader Tool -->
+
+	<actionBinding action="AXIS_FRONTLOADER_TOOL2">
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="-" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="+" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Raise Tool Axis 3 -->
+	<!-- Lower Tool Axis 3 -->
+
+	<actionBinding action="AXIS_FRONTLOADER_TOOL3">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Raise Tool Axis 4 -->
+	<!-- Lower Tool Axis 4 -->
+
+	<actionBinding action="AXIS_FRONTLOADER_TOOL4">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+   </actionBinding>
+
+	<!-- Raise Tool Axis 5 -->
+	<!-- Lower Tool Axis 5 -->
+
+	<actionBinding action="AXIS_FRONTLOADER_TOOL5">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+<!-- Crane -->
+
+	<!-- Rotate Crane Right -->
+	<!-- Rotate Crane Left -->
+
+	<actionBinding action="AXIS_CRANE_ARM">
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_1" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Raise Crane Arm -->
+	<!-- Lower Crane Arm -->
+
+	<actionBinding action="AXIS_CRANE_ARM2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Raise Crane Arm 2 -->
+	<!-- Lower Crane Arm 2 -->
+
+	<actionBinding action="AXIS_CRANE_ARM3">
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="-" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_2" inputComponent="+" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Extend Crane Arm -->
+	<!-- Retract Crane Arm -->
+
+	<actionBinding action="AXIS_CRANE_ARM4">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Open Crane Tool -->
+	<!-- Close Crane Tool -->
+
+	<actionBinding action="AXIS_CRANE_TOOL">
+		<binding device="PANEL_DEFAULT" input="BUTTON_23" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_28" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Rotate Crane Tool Right -->
+	<!-- Rotate Crance Tool Left -->
+
+	<actionBinding action="AXIS_CRANE_TOOL2">
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_3" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Raise Crane Tool Axis 3 -->
+	<!-- Lower Crane Tool Axis 3 -->
+
+	<actionBinding action="AXIS_CRANE_TOOL3">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Crane Support Leg -->
+	<!-- Crane Support Leg 2 -->
+
+	<actionBinding action="AXIS_CRANE_SUPPORT">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+<!-- Placeable -->
+
+	<!-- Open Flap -->
+	<!-- Close Flap -->
+
+	<actionBinding action="AXIS_DOOR">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Open Flap 2 -->
+	<!-- Close Flap 2 -->
+
+	<actionBinding action="AXIS_DOOR_2">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+	<!-- Open Flap 3 -->
+	<!-- Close Flap 3 -->
+
+	<actionBinding action="AXIS_DOOR_3">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+	</actionBinding>
+
+<!-- Game -->
+
+	<!-- Move Cursor Up -->
+	<!-- Move Cursor Down -->
+
+	<actionBinding action="MENU_AXIS_UP_DOWN">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_19" axisComponent="-" />
+	</actionBinding>
+
+	<actionBinding action="MENU_AXIS_UP_DOWN_SECONDARY">
+	</actionBinding>
+
+	<!-- Move Cursor Right -->
+	<!-- Move Cursor Left -->
+
+	<actionBinding action="MENU_AXIS_LEFT_RIGHT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_18" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_20" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Pause Game -->
+
+	<actionBinding action="PAUSE" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Skip Message Box -->
+
+	<actionBinding action="SKIP_MESSAGE_BOX">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_2" />
+	</actionBinding>
+
+	<!-- Open Menu -->
+
+	<actionBinding action="MENU">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_10" />
+	</actionBinding>
+
+	<actionBinding action="INGAMEMAP_ACCEPT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_12" />
+	</actionBinding>
+
+	<actionBinding action="MENU_ACCEPT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_2" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_32" />
+	</actionBinding>
+
+	<actionBinding action="MENU_ACTIVATE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_1" />
+	</actionBinding>
+
+	<actionBinding action="MENU_BACK">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_3" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_3" />
+	</actionBinding>
+
+	<actionBinding action="MENU_CANCEL">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_4" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_25" />
+	</actionBinding>
+
+	<actionBinding action="MENU_PAGE_PREV">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_5" />
+	</actionBinding>
+
+	<actionBinding action="MENU_PAGE_NEXT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_6" />
+	</actionBinding>
+
+	<actionBinding action="MENU_EXTRA_1">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_13" />
+	</actionBinding>
+
+	<actionBinding action="MENU_EXTRA_2">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_12" />
+	</actionBinding>
+
+	<actionBinding action="MENU_LIST_PAGE_START">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<actionBinding action="MENU_LIST_PAGE_END">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<actionBinding action="MENU_LIST_PAGE_PREV">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<actionBinding action="MENU_LIST_PAGE_NEXT">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<actionBinding action="MENU_MAP_ACTION_1">
+		<!-- <binding device="" input=""/> -->
+	</actionBinding>
+
+	<actionBinding action="AXIS_MAP_ZOOM_IN">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17" axisComponent="+" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_MAP_ZOOM_OUT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_19" axisComponent="+" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_MTO_SCROLL">
+		<!-- <binding device="" input="" axisComponent="+" /> -->
+		<!-- <binding device="" input="" axisComponent="-" /> -->
+	</actionBinding>
+
+	<actionBinding action="AXIS_MAP_SCROLL_UP_DOWN">
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_5" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<actionBinding action="AXIS_MAP_SCROLL_LEFT_RIGHT">
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="+" axisComponent="+" />
+		<binding device="PANEL_DEFAULT" input="AXIS_4" inputComponent="-" axisComponent="-" />
+	</actionBinding>
+
+	<!-- Shop -->
+
+	<actionBinding action="TOGGLE_STORE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_9" />
+	</actionBinding>
+
+	<!-- Map -->
+
+	<actionBinding action="TOGGLE_MAP">
+	</actionBinding>
+
+	<!-- Character Creation -->
+
+	<actionBinding action="TOGGLE_CHARACTER_CREATION" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+
+	<!-- Toggle Help Menu -->
+
+	<actionBinding action="TOGGLE_HELP">
+	</actionBinding>
+
+	<!-- Push to Talk -->
+
+	<actionBinding action="PUSH_TO_TALK">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Map View -->
+
+	<actionBinding action="TOGGLE_MAP_SIZE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_13" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_24" />
+	</actionBinding>
+
+	<!-- Continue -->
+
+	<actionBinding action="CONVERSATION_SKIP" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Skip Help -->
+
+	<actionBinding action="INTRODUCTION_HELP_SKIP">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_2" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_32" />
+	</actionBinding>
+
+	<!-- Select -->
+
+	<!-- Save Screenshot -->
+
+	<actionBinding action="TAKE_SCREENSHOT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Chat -->
+
+	<actionBinding action="CHAT">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Help Text -->
+
+	<actionBinding action="TOGGLE_HELP_TEXT">
+		<binding device="PANEL_DEFAULT" input="BUTTON_22" />
+	</actionBinding>
+
+	<!-- Increase Timescale -->
+
+	<actionBinding action="INCREASE_TIMESCALE">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Decrese Timescale -->
+
+	<actionBinding action="DECREASE_TIMESCALE">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Reset Head Tracking -->
+
+	<actionBinding action="RESET_HEAD_TRACKING">
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+<!-- Camera -->
+
+	<!-- Select Camera -->
+
+	<actionBinding action="CAMERA_SWITCH">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_12" />
+	</actionBinding>
+
+<!-- Vehicle - Gearbox -->
+
+	<!-- Clutch -->
+
+	<actionBinding action="AXIS_CLUTCH_VEHICLE">
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+	</actionBinding>
+
+	<!-- Shift Gear Up -->
+
+	<actionBinding action="SHIFT_GEAR_UP" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Shift Gear Down -->
+
+	<actionBinding action="SHIFT_GEAR_DOWN" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Gear 1 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_1">
+	</actionBinding>
+
+	<!-- Gear 2 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_2">
+	</actionBinding>
+
+	<!-- Gear 3 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_3">
+	</actionBinding>
+
+	<!-- Gear 4 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_4">
+	</actionBinding>
+
+	<!-- Gear 5 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_5">
+	</actionBinding>
+
+	<!-- Gear 6 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_6">
+	</actionBinding>
+
+	<!-- Gear 7 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_7">
+	</actionBinding>
+
+	<!-- Gear 8 -->
+
+	<actionBinding action="SHIFT_GEAR_SELECT_8">
+	</actionBinding>
+
+	<!-- Shift Group Up -->
+
+	<actionBinding action="SHIFT_GROUP_UP" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Shift Group Down -->
+
+	<actionBinding action="SHIFT_GROUP_DOWN" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Gear Group 1 -->
+
+	<actionBinding action="SHIFT_GROUP_SELECT_1"/>
+
+	<!-- Gear Group 2 -->
+
+	<actionBinding action="SHIFT_GROUP_SELECT_2"/>
+
+	<!-- Gear Group 3 -->
+
+	<actionBinding action="SHIFT_GROUP_SELECT_3"/>
+
+	<!-- Gear Group 4 -->
+
+	<actionBinding action="SHIFT_GROUP_SELECT_4"/>
+
+	<!-- Change Direction -->
+
+	<actionBinding action="DIRECTION_CHANGE" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Select Forward Direction -->
+
+	<actionBinding action="DIRECTION_CHANGE_POS" >
+	</actionBinding>
+
+	<!-- Select Backwards Direction -->
+
+	<actionBinding action="DIRECTION_CHANGE_NEG" >
+	</actionBinding>
+
+<!-- Vehicle - Lights -->
+
+	<!-- Toggle Light -->
+
+	<actionBinding action="TOGGLE_LIGHTS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_3" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_6" />
+	</actionBinding>
+
+	<!-- Toggle Light Reverse -->
+
+	<actionBinding action="TOGGLE_LIGHTS_BACK" >
+		<!-- <binding device="" input="" /> -->
+	</actionBinding>
+
+	<!-- Toggle Light From External -->
+
+	<actionBinding action="TOGGLE_LIGHTS_EXTERNAL">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_2" />
+	</actionBinding>
+
+	<!-- Toggle Beacon Lights -->
+
+	<actionBinding action="TOGGLE_BEACON_LIGHTS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_17" />
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_2" />
+	</actionBinding>
+
+	<!-- Turn Signal Left -->
+
+	<actionBinding action="TOGGLE_TURNLIGHT_LEFT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_20" />
+	</actionBinding>
+
+	<!-- Turn Signal Right -->
+
+	<actionBinding action="TOGGLE_TURNLIGHT_RIGHT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6 BUTTON_18" />
+	</actionBinding>
+
+	<!-- Hazard Lights -->
+
+	<actionBinding action="TOGGLE_TURNLIGHT_HAZARD">
+		<binding device="PANEL_DEFAULT" input="BUTTON_1" />
+	</actionBinding>
+
+	<!-- Work Light Back -->
+
+	<actionBinding action="TOGGLE_WORK_LIGHT_BACK">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_3" />
+	</actionBinding>
+
+	<!-- Work Light Front -->
+
+	<actionBinding action="TOGGLE_WORK_LIGHT_FRONT">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_1" />
+	</actionBinding>
+
+	<!-- High Beam Light -->
+
+	<actionBinding action="TOGGLE_HIGH_BEAM_LIGHT">
+		<binding device="PANEL_DEFAULT" input="BUTTON_21 BUTTON_7" />
+	</actionBinding>
+
+	<!-- Light Front -->
+
+	<actionBinding action="TOGGLE_LIGHT_FRONT">
+		<binding device="PANEL_DEFAULT" input="BUTTON_7" />
+	</actionBinding>
+
+<!-- Radio -->
+
+	<!-- Toggle Radio -->
+
+	<actionBinding action="RADIO_TOGGLE">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_17" />
+	</actionBinding>
+
+	<!-- Next Radio Channel -->
+
+	<actionBinding action="RADIO_NEXT_CHANNEL">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_18" />
+	</actionBinding>
+
+	<!-- Previous Radio Channel -->
+
+	<actionBinding action="RADIO_PREVIOUS_CHANNEL">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_20" />
+	</actionBinding>
+
+	<!-- Next Song -->
+
+	<actionBinding action="RADIO_NEXT_ITEM">
+	</actionBinding>
+
+	<!-- Previous Song -->
+
+	<actionBinding action="RADIO_PREVIOUS_ITEM">
+	</actionBinding>
+
+
+
+
+<!-- Original -->
+
+	<!-- LOCKED INPUTS -->
+
+	<actionBinding action="DEBUG_PLAYER_UP_DOWN">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5" inputComponent="+" axisComponent="+" />
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6" inputComponent="+" axisComponent="-" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_ALT_COMMAND_BUTTON">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_ALT_COMMAND2_BUTTON">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_6" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_ALT_COMMAND3_BUTTON">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_5 BUTTON_6" />
+	</actionBinding>
+
+	<!-- CONSOLE DEBUG COMMANDS -->
+
+	<actionBinding action="CONSOLE_DEBUG_TOGGLE_FPS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17 BUTTON_5 BUTTON_6 BUTTON_2" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_DEBUG_TOGGLE_STATS">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17 BUTTON_5 BUTTON_6 BUTTON_3" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_DEBUG_FILLUNIT_NEXT">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_18 BUTTON_5 BUTTON_6 BUTTON_4" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_DEBUG_FILLUNIT_INC">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_17 BUTTON_5 BUTTON_6 BUTTON_4" />
+	</actionBinding>
+
+	<actionBinding action="CONSOLE_DEBUG_FILLUNIT_DEC">
+		<binding device="WHEEL_DEFAULT" input="BUTTON_19 BUTTON_5 BUTTON_6 BUTTON_4" />
+	</actionBinding>
+
+</inputBinding>
