@@ -67,72 +67,72 @@
 
 	<!-- Build Mode -->
 
-<!-- 	<actionBinding action="TOGGLE_CONSTRUCTION" >
-		<binding device="" input="" />
+	<actionBinding action="TOGGLE_CONSTRUCTION" >
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_ZOOM">
-		<binding device="" input="" axisComponent="+"/>
-		<binding device="" input="" axisComponent="-"/>
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_ROTATE">
-		<binding device="" input="" axisComponent="+" />
-		<binding device="" input="" axisComponent="-" />
+		<!-- <binding device="" input="" axisComponent="+" /> -->
+		<!-- <binding device="" input="" axisComponent="-" /> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_CAMERA_TILT">
-		<binding device="" input="" axisComponent="+"/>
-		<binding device="" input="" axisComponent="-"/>
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_MENU_UP_DOWN">
-		<binding device="" input="" axisComponent="+"/>
-		<binding device="" input="" axisComponent="-"/>
+		<!-- <binding device="" input="" axisComponent="+"/> -->
+		<!-- <binding device="" input="" axisComponent="-"/> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_MENU_LEFT_RIGHT">
-		<binding device="" input="" axisComponent="-"/>
-		<binding device="" input="" axisComponent="+"/>
+		<!-- <binding device="" input="" axisComponent="-"/> -->
+		<!-- <binding device="" input="" axisComponent="+"/> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_CURSOR_ROTATE">
-		<binding device="" input="" axisComponent="-" />
-		<binding device="" input="" axisComponent="+" />
+		<!-- <binding device="" input="" axisComponent="-" /> -->
+		<!-- <binding device="" input="" axisComponent="+" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_DESTRUCT_TOGGLE">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_SHOW_CONFIGS">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_ACTION_SNAPPING">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_ACTION_PRIMARY">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_ACTION_SECONDARY">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_ACTION_TERTIARY">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="CONSTRUCTION_ACTION_FOURTH">
-		<binding device="" input="" />
+		<!-- <binding device="" input="" /> -->
 	</actionBinding>
 
 	<actionBinding action="AXIS_CONSTRUCTION_ACTION_PRIMARY"> <!-- left (-) right (+) -->
 		<!-- <binding device="" input="" axisComponent="-" /> -->
 		<!-- <binding device="" input="" axisComponent="+" /> -->
-	<!-- </actionBinding> -->
+	</actionBinding>
 
     <actionBinding action="AXIS_CONSTRUCTION_ACTION_SECONDARY">
         <!-- <binding device="" input="" axisComponent="-" /> -->
